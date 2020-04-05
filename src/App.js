@@ -41,8 +41,11 @@ class App extends React.Component {
     this.setState({ newItem: input });
   }
 
-  done(e) {
-    this.setState({});
+  markDone(value, id) {
+    let list = [...this.state.list];
+    list.filter((item) => item.id === id)[0].isDone = value;
+    this.setState(list);
+    console.log(list, value);
   }
 
   render() {
@@ -83,7 +86,9 @@ class App extends React.Component {
                       type="checkbox"
                       name="idDone"
                       checked={item.isDone}
-                      onChange={(e) => {}}
+                      onChange={(e) => {
+                        this.markDone(e.target.checked, item.id);
+                      }}
                     />
                     {item.value}
                     <button
