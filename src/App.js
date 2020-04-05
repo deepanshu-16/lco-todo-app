@@ -45,7 +45,6 @@ class App extends React.Component {
     let list = [...this.state.list];
     list.filter((item) => item.id === id)[0].isDone = value;
     this.setState(list);
-    console.log(list, value);
   }
 
   render() {
