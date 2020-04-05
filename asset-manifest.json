@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lco-todo-app/static/css/main.1231689e.chunk.css",
+    "main.js": "/lco-todo-app/static/js/main.e78e489a.chunk.js",
+    "main.js.map": "/lco-todo-app/static/js/main.e78e489a.chunk.js.map",
+    "runtime-main.js": "/lco-todo-app/static/js/runtime-main.a4bb81ee.js",
+    "runtime-main.js.map": "/lco-todo-app/static/js/runtime-main.a4bb81ee.js.map",
+    "static/js/2.f9bb857a.chunk.js": "/lco-todo-app/static/js/2.f9bb857a.chunk.js",
+    "static/js/2.f9bb857a.chunk.js.map": "/lco-todo-app/static/js/2.f9bb857a.chunk.js.map",
+    "index.html": "/lco-todo-app/index.html",
+    "precache-manifest.04327d1dc72509ab21e362633bd12827.js": "/lco-todo-app/precache-manifest.04327d1dc72509ab21e362633bd12827.js",
+    "service-worker.js": "/lco-todo-app/service-worker.js",
+    "static/css/main.1231689e.chunk.css.map": "/lco-todo-app/static/css/main.1231689e.chunk.css.map",
+    "static/js/2.f9bb857a.chunk.js.LICENSE.txt": "/lco-todo-app/static/js/2.f9bb857a.chunk.js.LICENSE.txt",
+    "static/media/LCO-logo-white.png": "/lco-todo-app/static/media/LCO-logo-white.93326a91.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4bb81ee.js",
+    "static/js/2.f9bb857a.chunk.js",
+    "static/css/main.1231689e.chunk.css",
+    "static/js/main.e78e489a.chunk.js"
+  ]
+}
